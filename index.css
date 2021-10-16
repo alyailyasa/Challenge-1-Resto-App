@@ -1,0 +1,59 @@
+body {
+  padding-top: 2rem;
+  padding-bottom: 3rem;
+  color: white;
+  background: rgb(166, 96, 231);
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.h1{
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.carousel {
+  margin-bottom: 4rem;
+}
+
+.carousel-caption {
+  bottom: 0;
+  z-index: 10;
+}
+
+.carousel-item {
+  height: 30rem;
+  background-color: rgb(166, 96, 231);
+}
+
+.carousel-item > img {
+  width: 300px;
+  height: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto ;
+  border-radius: 20px;
+}
+
+.footer{
+  font-size: 20px;
+  text-align: center;
+  color: white;
+}
+
+@media (min-width: 40em) {
+  .carousel-caption p {
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.4;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 7rem;
+  }
+}
